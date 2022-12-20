@@ -9,21 +9,39 @@
 /* Begin PBXBuildFile section */
 		A4C63AE02951CF5F0049135F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C63ADF2951CF5F0049135F /* AppDelegate.swift */; };
 		A4C63AE22951CF5F0049135F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C63AE12951CF5F0049135F /* SceneDelegate.swift */; };
-		A4C63AE42951CF5F0049135F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C63AE32951CF5F0049135F /* ViewController.swift */; };
-		A4C63AE72951CF5F0049135F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4C63AE52951CF5F0049135F /* Main.storyboard */; };
 		A4C63AE92951CF610049135F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4C63AE82951CF610049135F /* Assets.xcassets */; };
 		A4C63AEC2951CF610049135F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4C63AEA2951CF610049135F /* LaunchScreen.storyboard */; };
+		A4C63AFA2951D0220049135F /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C63AF92951D0220049135F /* TabBarController.swift */; };
+		A4C63AFC2951D0500049135F /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C63AFB2951D0500049135F /* FeedViewController.swift */; };
+		A4C63AFE2951D05E0049135F /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C63AFD2951D05E0049135F /* PostViewController.swift */; };
+		A4C63B002951D0690049135F /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C63AFF2951D0690049135F /* InfoViewController.swift */; };
+		A4C63B022951D07C0049135F /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C63B012951D07C0049135F /* LogInViewController.swift */; };
+		A4C63B042951D08F0049135F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C63B032951D08F0049135F /* ProfileViewController.swift */; };
+		A4C63B062951D09A0049135F /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C63B052951D0990049135F /* ProfileHeaderView.swift */; };
+		A4C63B082951D0A40049135F /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C63B072951D0A40049135F /* PostTableViewCell.swift */; };
+		A4C63B0A2951D1140049135F /* Post and StatusText.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C63B092951D1140049135F /* Post and StatusText.swift */; };
+		A4C63B0C2951D1200049135F /* TextFieldWithPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C63B0B2951D1200049135F /* TextFieldWithPadding.swift */; };
+		A4C63B0E2951D1290049135F /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C63B0D2951D1290049135F /* PostView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A4C63ADC2951CF5F0049135F /* Dont work Header for tableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dont work Header for tableView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4C63ADF2951CF5F0049135F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4C63AE12951CF5F0049135F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A4C63AE32951CF5F0049135F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A4C63AE62951CF5F0049135F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A4C63AE82951CF610049135F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4C63AEB2951CF610049135F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4C63AED2951CF610049135F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4C63AF92951D0220049135F /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		A4C63AFB2951D0500049135F /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		A4C63AFD2951D05E0049135F /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		A4C63AFF2951D0690049135F /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		A4C63B012951D07C0049135F /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		A4C63B032951D08F0049135F /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		A4C63B052951D0990049135F /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		A4C63B072951D0A40049135F /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		A4C63B092951D1140049135F /* Post and StatusText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Post and StatusText.swift"; sourceTree = "<group>"; };
+		A4C63B0B2951D1200049135F /* TextFieldWithPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldWithPadding.swift; sourceTree = "<group>"; };
+		A4C63B0D2951D1290049135F /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +74,64 @@
 		A4C63ADE2951CF5F0049135F /* Dont work Header for tableView */ = {
 			isa = PBXGroup;
 			children = (
-				A4C63ADF2951CF5F0049135F /* AppDelegate.swift */,
-				A4C63AE12951CF5F0049135F /* SceneDelegate.swift */,
-				A4C63AE32951CF5F0049135F /* ViewController.swift */,
-				A4C63AE52951CF5F0049135F /* Main.storyboard */,
+				A4C63AF52951CFD40049135F /* Data */,
+				A4C63AF32951CFBB0049135F /* Aplication */,
+				A4C63AF62951CFDD0049135F /* TabBarController */,
+				A4C63AF72951CFE90049135F /* FeedVC */,
+				A4C63AF82951CFF20049135F /* ProfileVC */,
 				A4C63AE82951CF610049135F /* Assets.xcassets */,
 				A4C63AEA2951CF610049135F /* LaunchScreen.storyboard */,
 				A4C63AED2951CF610049135F /* Info.plist */,
 			);
 			path = "Dont work Header for tableView";
+			sourceTree = "<group>";
+		};
+		A4C63AF32951CFBB0049135F /* Aplication */ = {
+			isa = PBXGroup;
+			children = (
+				A4C63ADF2951CF5F0049135F /* AppDelegate.swift */,
+				A4C63AE12951CF5F0049135F /* SceneDelegate.swift */,
+			);
+			path = Aplication;
+			sourceTree = "<group>";
+		};
+		A4C63AF52951CFD40049135F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				A4C63B092951D1140049135F /* Post and StatusText.swift */,
+				A4C63B0B2951D1200049135F /* TextFieldWithPadding.swift */,
+				A4C63B0D2951D1290049135F /* PostView.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		A4C63AF62951CFDD0049135F /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				A4C63AF92951D0220049135F /* TabBarController.swift */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		A4C63AF72951CFE90049135F /* FeedVC */ = {
+			isa = PBXGroup;
+			children = (
+				A4C63AFB2951D0500049135F /* FeedViewController.swift */,
+				A4C63AFD2951D05E0049135F /* PostViewController.swift */,
+				A4C63AFF2951D0690049135F /* InfoViewController.swift */,
+			);
+			path = FeedVC;
+			sourceTree = "<group>";
+		};
+		A4C63AF82951CFF20049135F /* ProfileVC */ = {
+			isa = PBXGroup;
+			children = (
+				A4C63B012951D07C0049135F /* LogInViewController.swift */,
+				A4C63B032951D08F0049135F /* ProfileViewController.swift */,
+				A4C63B052951D0990049135F /* ProfileHeaderView.swift */,
+				A4C63B072951D0A40049135F /* PostTableViewCell.swift */,
+			);
+			path = ProfileVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +194,6 @@
 			files = (
 				A4C63AEC2951CF610049135F /* LaunchScreen.storyboard in Resources */,
 				A4C63AE92951CF610049135F /* Assets.xcassets in Resources */,
-				A4C63AE72951CF5F0049135F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +204,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4C63AE42951CF5F0049135F /* ViewController.swift in Sources */,
+				A4C63AFE2951D05E0049135F /* PostViewController.swift in Sources */,
+				A4C63B0C2951D1200049135F /* TextFieldWithPadding.swift in Sources */,
+				A4C63AFA2951D0220049135F /* TabBarController.swift in Sources */,
+				A4C63B002951D0690049135F /* InfoViewController.swift in Sources */,
+				A4C63B022951D07C0049135F /* LogInViewController.swift in Sources */,
+				A4C63B0A2951D1140049135F /* Post and StatusText.swift in Sources */,
+				A4C63B062951D09A0049135F /* ProfileHeaderView.swift in Sources */,
+				A4C63AFC2951D0500049135F /* FeedViewController.swift in Sources */,
 				A4C63AE02951CF5F0049135F /* AppDelegate.swift in Sources */,
+				A4C63B082951D0A40049135F /* PostTableViewCell.swift in Sources */,
+				A4C63B042951D08F0049135F /* ProfileViewController.swift in Sources */,
+				A4C63B0E2951D1290049135F /* PostView.swift in Sources */,
 				A4C63AE22951CF5F0049135F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +223,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A4C63AE52951CF5F0049135F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A4C63AE62951CF5F0049135F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A4C63AEA2951CF610049135F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -291,7 +359,6 @@
 				INFOPLIST_FILE = "Dont work Header for tableView/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -318,7 +385,6 @@
 				INFOPLIST_FILE = "Dont work Header for tableView/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
